@@ -5,7 +5,8 @@ body{
 
 /* pour différencier les sections, non définitif */
 section:nth-child(2n+1){
-    background-color:#E3E2CC;
+    background-color:#303030;
+    color:white;
 }
 section:nth-child(2n){
     background-color: #CCCDE3;
@@ -38,16 +39,37 @@ section#entete>*:nth-child(2){
 }
 
 
-section#entete a:link, section#entete a:visited{
+section#entete a{
+    border: solid 1px white;
+    padding: 5px 20px;
     text-decoration: none;
-    color:black;
+    transition:0.5s;
 
+}
+
+
+section#entete a:link, section#entete a:visited{
+    color:white;
+    border-radius:5px;
 }
 
 section#entete a:hover, section#entete a:active{
-    text-decoration: underline;
-    color:grey;
+    color:black;
+    background-color: white;
 }
+
+section#footer a{
+    color:white;
+}
+
+section#footer a:link, section#footer a:visited{
+    text-decoration: underline;
+}
+
+section#footer a:hover, section#footer a:active{
+    text-decoration:none;
+}
+
 
 
 
