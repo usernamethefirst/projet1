@@ -26,6 +26,10 @@ section#entete{
     align-items: center;
 }
 
+section#entete img{
+    margin-right: 100px;
+}
+
 div.menu-flex{
     display:flex;
     justify-content: space-evenly;
