@@ -1,0 +1,38 @@
+body{
+    margin:0;
+}
+
+
+/* pour différencier les sections, non définitif */
+section:nth-child(2n+1){
+    background-color:#E3E2CC;
+}
+section:nth-child(2n){
+    background-color: #CCCDE3;
+}
+
+
+section:not(#entete){
+    width:100%;
+    box-sizing:border-box;
+    padding:50px calc( ( 100% - 1024px ) / 2 );
+}
+
+section#entete{
+    padding:50px;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+
+div.menu-flex{
+    display:flex;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+    
+}
+
+.illusCentrale {
+    text-align: center;
+}
