@@ -34,6 +34,13 @@ section#entete>*:nth-child(2){
     flex: 100 1 auto;
 }
 
+
+section#entete a:link, section#entete a:visited{
+    text-decoration: none;
+}
+
+
+
 section#footer{
     text-align: center;
 }
