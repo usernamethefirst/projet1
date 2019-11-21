@@ -12,14 +12,17 @@ section:nth-child(2n){
 }
 
 
-section:not(#entete){
+section:not(#entete), section:not(#footer){
     width:100%;
     box-sizing:border-box;
     padding:50px calc( ( 100% - 1024px ) / 2 );
 }
 
-section#entete{
+section#entete, section#footer{
     padding:50px;
+}
+
+section#entete{
     display:flex;
     flex-flow: row nowrap;
     justify-content:space-between;
