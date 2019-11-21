@@ -37,6 +37,13 @@ section#entete>*:nth-child(2){
 
 section#entete a:link, section#entete a:visited{
     text-decoration: none;
+    color:black;
+
+}
+
+section#entete a:hover, section#entete a:active{
+    text-decoration: underline;
+    color:grey;
 }
 
 
