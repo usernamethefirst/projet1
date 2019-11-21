@@ -26,17 +26,26 @@ section#entete{
     align-items: center;
 }
 
-section#entete img{
-    margin-right: 100px;
+section#entete>*:nth-child(1){
+    flex: 40 1 auto;
+}
+
+section#entete>*:nth-child(2){
+    flex: 100 1 auto;
+}
+
+section#footer{
+    text-align: center;
 }
 
 div.menu-flex{
     display:flex;
-    justify-content: space-evenly;
-    flex: 1 1 auto;
-    
+    justify-content: space-between;
+    flex-flow: row wrap;
+    white-space: nowrap;    
 }
 
 .illusCentrale {
     text-align: center;
 }
+
