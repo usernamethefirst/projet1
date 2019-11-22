@@ -89,5 +89,12 @@ ul.menu-flex{
 
 .illusCentrale {
     text-align: center;
+    width:100%;
+}
+
+img.logo{
+    margin-left:20%;
+    width:75px;
+    border-radius: 7px;
 }
 

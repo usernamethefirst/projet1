@@ -26,8 +26,8 @@ ul.code li {
     padding-left: 30px;
     margin: 1em 0; 
     line-height: calc( 1em + 20px);
-
 }
+
 /* 
 ul.code li::before{
     content: url("../images/tuxmini.svg");
