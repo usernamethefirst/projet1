@@ -53,6 +53,7 @@ nav#entete a{
 
 
 nav#entete a:link, nav#entete a:visited{
+    
     color:white;
     border-radius:5px;
 }
