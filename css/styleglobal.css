@@ -12,8 +12,7 @@ body > *:nth-child(2n){
     background-color: #CCCDE3;
 }
 
-
-section:not(#entete), section:not(#footer){
+section:not(#footer){
     width:100%;
     box-sizing:border-box;
     padding:50px calc( ( 100% - 1024px ) / 2 );
@@ -46,14 +45,14 @@ nav#entete>*:nth-child(2){
 
 nav#entete a{
     border: solid 1px white;
-    padding: 5px 20px;
+    padding: 5px 15px;
     text-decoration: none;
     transition:0.5s;
 }
 
 
 nav#entete a:link, nav#entete a:visited{
-    
+
     color:white;
     border-radius:5px;
 }
@@ -75,9 +74,6 @@ section#footer a:hover, section#footer a:active{
     text-decoration:none;
 }
 
-
-
-
 section#footer{
     text-align: center;
 }
@@ -85,7 +81,7 @@ section#footer{
 ul.menu-flex{
     list-style-type:none;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-flow: row wrap;
     white-space: nowrap;
     align-content: space-around;
