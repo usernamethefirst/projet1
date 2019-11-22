@@ -4,11 +4,11 @@ body{
 
 
 /* pour différencier les sections, non définitif */
-section:nth-child(2n+1){
+body > *:nth-child(2n+1){
     background-color:#303030;
     color:white;
 }
-section:nth-child(2n){
+body > *:nth-child(2n){
     background-color: #CCCDE3;
 }
 
@@ -19,41 +19,45 @@ section:not(#entete), section:not(#footer){
     padding:50px calc( ( 100% - 1024px ) / 2 );
 }
 
-section#entete, section#footer{
+nav#entete, section#footer{
     padding:50px;
 }
 
-section#entete{
+nav#entete{
     display:flex;
     flex-flow: row nowrap;
     justify-content:space-between;
     align-items: center;
 }
 
-section#entete>*:nth-child(1){
+nav#entete li{
+    display: block;
+    margin: 8px 0;
+}
+
+nav#entete>*:nth-child(1){
     flex: 40 1 auto;
 }
 
-section#entete>*:nth-child(2){
+nav#entete>*:nth-child(2){
     flex: 100 1 auto;
 }
 
 
-section#entete a{
+nav#entete a{
     border: solid 1px white;
     padding: 5px 20px;
     text-decoration: none;
     transition:0.5s;
-
 }
 
 
-section#entete a:link, section#entete a:visited{
+nav#entete a:link, nav#entete a:visited{
     color:white;
     border-radius:5px;
 }
 
-section#entete a:hover, section#entete a:active{
+nav#entete a:hover, nav#entete a:active{
     color:black;
     background-color: white;
 }
@@ -77,11 +81,13 @@ section#footer{
     text-align: center;
 }
 
-div.menu-flex{
+ul.menu-flex{
+    list-style-type:none;
     display:flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    white-space: nowrap;    
+    white-space: nowrap;
+    align-content: space-around;
 }
 
 .illusCentrale {
